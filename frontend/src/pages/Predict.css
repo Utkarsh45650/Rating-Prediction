@@ -1,0 +1,33 @@
+.predict-page {
+  min-height: calc(100vh - 80px);
+  padding: 3rem 0;
+}
+
+.predict-content {
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+.predict-main {
+  width: 100%;
+}
+
+.button-group {
+  display: flex;
+  gap: 1rem;
+  margin-top: 1.5rem;
+}
+
+.button-group .btn {
+  flex: 1;
+}
+
+@media (max-width: 768px) {
+  .button-group {
+    flex-direction: column;
+  }
+
+  .button-group .btn {
+    width: 100%;
+  }
+}
